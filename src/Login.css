@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.maincard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-card {
+  background-color: #12dec9;
+  height: 600px;
+  width: 1000px;
+  margin-top: 6%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.imag-container img {
+  width: 400px;
+  border-radius: 25px 0px 0px 25px;
+  object-fit: contain;
+}
+
+h1 {
+  position: absolute;
+  top: 75%;
+  left: 29%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "camar";
+}
+
+.rightlogin {
+  height: 700px;
+  width: 700px;
+  padding-left: 83px;
+  padding-top: 90px;
+}
+
+.rightlogin form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  font-family: "poppins", sans-serif;
+}
+
+input[type="email"] {
+  width: 400px;
+  height: 45px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  font-family: "poppins", sans-serif;
+}
+
+input[type="password"] {
+  width: 400px;
+  height: 45px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  font-family: "poppins", sans-serif;
+}
+
+input[type="submit"] {
+  width: 425px;
+  height: 60px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  font-family: "poppins", sans-serif;
+  background-color: rgb(28, 208, 100);
+  color: white;
+  border-bottom: 8px solid rgb(3, 110, 37);
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(33, 187, 95);
+  cursor: pointer;
+  border-bottom: 8px solid rgb(3, 110, 37);
+}
+
+input[type="submit"]:active {
+  transform: translateY(5px);
+  border-bottom: 3px solid rgb(3, 110, 37);
+}
+
+div h5 {
+  margin-left: 26%;
+}
+
+#gb:hover {
+  cursor: pointer;
+}
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 425px;
+  height: 60px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  font-family: "poppins", sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-bottom: 8px solid rgb(118, 118, 118);
+}
+
+.google-button:hover {
+  cursor: pointer;
+}
+
+.google-button:active {
+  transform: translateY(5px);
+  border-bottom: 3px solid rgb(118, 118, 118);
+}
+
+.google-button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.slink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -18%;
+  margin-top: -5%;
+  text-decoration: none;
+  color: black;
+}

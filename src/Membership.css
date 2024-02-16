@@ -1,0 +1,187 @@
+body {
+  background-color: rgb(223, 255, 254);
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+  font-family: "poppins", sans-serif;
+  font-size: 17px;
+}
+
+.nav h1 {
+  font-family: "camar";
+  font-size: 30px;
+  color: #12dec9;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+#Membership {
+  color: black;
+}
+
+.links a {
+  margin-right: 40px;
+  color: rgba(0, 0, 0, 0.413);
+  text-decoration: none;
+}
+
+.links a:hover {
+  cursor: pointer;
+  color: #12dec9;
+  text-decoration: none;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+}
+
+#log {
+  border: none;
+  background-color: #ffffff00;
+  color: #12dec9;
+}
+
+#log:hover {
+  color: #07c3e0;
+}
+
+.btns button {
+  margin-right: 25px;
+  padding: 4px;
+  height: 35px;
+  width: 95px;
+  border: none;
+  font-family: "poppins", sans-serif;
+  border-radius: 15px;
+  background-color: #12dec9;
+  color: white;
+  font-size: 15px;
+}
+
+.btns button:hover {
+  cursor: pointer;
+  background-color: #0a9f90;
+}
+
+.membership-card {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subscription-option {
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.membership-card {
+  background-color: #12dec9;
+  border-radius: 30px;
+  padding: 40px;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 5%;
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.subscription-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+  height: 500px;
+}
+
+.subscription-option {
+  flex: 1;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(29, 177, 81);
+}
+
+h2,
+h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.discount {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #12dec9;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "poppins", sans-serif;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
